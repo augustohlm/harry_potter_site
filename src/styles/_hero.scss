@@ -1,0 +1,94 @@
+
+.hero {
+    position: absolute;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin-top: 50px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/fundo_pc.png);
+    }
+
+.hero-parent {
+    background-position: top;
+    position: relative;
+    z-index: 1;
+    max-width: 1140px;
+}
+
+.hero-parent .col-right {
+    align-content: center;
+    
+}
+
+.hero-parent__content {
+    align-content: flex-end;
+    min-height: 100vh;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: nowrap;
+}
+
+.hero-parent__content__HarryImage {
+    margin-top: auto;
+    padding-right: 2rem;
+    padding-left: 3rem;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 4rem;
+    flex-direction: column;
+    display: flex;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+}
+
+.hero-parent__content__HarryImage__wrapper {
+    padding-bottom: 0px;
+    position: static;
+    width: auto;
+    display: inline-block;
+}
+
+.hero-parent__content__HarryImage__wrapper__sizeIMG{
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.hero-parent__content__text::before {
+    content: '';
+        display: block;
+        height: 100%;
+        width: 2px;
+        background: linear-gradient(180deg, rgba(208, 172, 74, 0) 0%, #D0AC4A 20%, #7E4813 50%, #D0AC4A 80%, rgba(208, 172, 74, 0) 100%);
+        position: absolute;
+        left: 0;
+        bottom: 1rem;
+}
+
+.hero-parent__content__text {
+    align-content: center;
+    position: relative;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding-bottom: 1rem !important;
+    padding-right: 1rem !important;
+    padding-left: 2rem !important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}

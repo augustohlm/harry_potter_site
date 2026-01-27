@@ -1,5 +1,78 @@
-$bgColor: blue;
+@use 'hero';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$corDeFundo: #120c1d;
+$corTituloPrincipal: #DCBD9D;
+$corTextoTituloSecundario: #B88B4D;
+$corParagrafoPrincipal: #FFEED8;
 
 body {
-    background-color: $bgColor;
+    background-color: $corDeFundo;
+    color: #fff;
+}
+
+.text--big {
+    font-size: 2.65rem;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.text--small {
+    font-size: .875rem;
+}
+
+.link--btn {
+    font-family: 'CochinRoman';
+    background-color: #674618 !important;
+    outline: 5px solid #674618 !important;
+    outline-offset: 0px !important;
+    color: #000;
+}
+
+.link--btn:hover {
+    background-color: #ffffff !important;
+    border-radius: 0;
+    color: #674618;
+    border: 1px solid #674618;
+    outline: 5px solid #ffffff !important;
+    outline-offset: 0px !important;
+}
+
+.link-btn__hero {
+    padding: 13px 24px;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 8px;
+    transition: 0.3s linear;
+    margin-top: 12px;
+}
+
+h2 {
+    color: #DCBD9D !important;
+    font-size: 2.625rem;
+    font-family: 'CochinRoman';
+    font-style: Normal;
+    font-stretch: Normal;
+    font-weight: normal;
+    line-height: 1.35;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 2.0rem;
+    font-family: "astoria-condensed", sans-serif;
+    font-size: 20px;
+    max-width: 400px;
+    font-weight: 200;
+    line-height: 26px;
+    color: #FFEED8 !important;
+    margin-top: 0;
 }
