@@ -1,4 +1,5 @@
 @use 'hero';
+@use 'shows';
 
 * {
     margin: 0;
@@ -6,7 +7,7 @@
     box-sizing: border-box;
 }
 
-$corDeFundo: #120c1d;
+$corDeFundo: #0C1016;
 $corTituloPrincipal: #DCBD9D;
 $corTextoTituloSecundario: #B88B4D;
 $corParagrafoPrincipal: #FFEED8;
@@ -34,6 +35,7 @@ body {
     outline: 5px solid #674618 !important;
     outline-offset: 0px !important;
     color: #000;
+
 }
 
 .link--btn:hover {
@@ -46,28 +48,37 @@ body {
 }
 
 .link-btn__hero {
+    font-family: 'CochinRoman';
     padding: 13px 24px;
     color: #000;
     text-transform: uppercase;
     border-radius: 8px;
     transition: 0.3s linear;
     margin-top: 12px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0px;
+    overflow: hidden;
+    transition: none;
+    align-self: flex-start;
 }
 
 h2 {
-    color: #DCBD9D !important;
+    color: #DCBD9D;
     font-size: 2.625rem;
     font-family: 'CochinRoman';
     font-style: Normal;
     font-stretch: Normal;
     font-weight: normal;
     line-height: 1.35;
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
     margin-bottom: 1rem;
 }
 
 p {
-    margin-bottom: 2.0rem;
+    margin-bottom: 1.7rem;
     font-family: "astoria-condensed", sans-serif;
     font-size: 20px;
     max-width: 400px;

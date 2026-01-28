@@ -1,0 +1,109 @@
+.shows {
+    
+    background-size: auto 70%;
+    background-position: top -8vw left;
+    background-repeat: no-repeat;
+    background-image: url(../../dist/images/golden-dust-bg\ 3.avif);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+
+        &__list {
+            max-width: 1140px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            padding: 0;
+            margin: 0 auto;
+            list-style: none;
+        
+        &__item {
+
+            a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #fff;
+            }
+
+            a:hover {
+            text-decoration: underline;
+            color: #4f8bff;
+            }
+            
+            img {
+            width: 100%;
+            max-width: 100%;
+            display: block;
+            margin: 0 0;
+            border: 2px solid transparent;
+            border-radius: 0;
+            outline: 1px solid #674618;
+            outline-offset: 5px;
+        }
+
+
+        img:hover {
+            outline: 1px solid #ffffff;
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+            h6 {
+                max-width: 320px;
+                overflow-wrap: break-word;
+                margin-top: 16px;
+                margin-bottom: 8px;
+                border: 2px solid transparent;
+                padding: 0 3rem;
+                text-align: center;
+                margin: 16px auto 8px;
+                line-height: 1.2;
+                font-weight: 600;
+                font-size: .875rem;
+                font-style: normal;
+            }
+
+        }
+    }
+
+    &__title {
+        max-width: 1140px;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        h2 {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            font-size: 2.625rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            font-family: 'CochinRoman';
+            font-style: Normal;
+            font-stretch: Normal;
+            font-weight: normal;
+            color: #B88B4D;
+        }
+    
+    &__wand {
+            width: 120px;
+            height: auto;
+        
+    }
+    
+    }
+
+    &__flipped {
+        transform: scaleX(-1);
+    }
+
+}
