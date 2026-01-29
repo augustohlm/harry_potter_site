@@ -1,28 +1,24 @@
-.shows {
-    
-    background-size: auto 70%;
-    background-position: top -8vw left;
+.beasts {
+
+    background-size: auto 100%;
+    background-position: top -8vw right;
     background-repeat: no-repeat;
-    background-image: url(../../dist/images/golden-dust-bg\ 3.avif);
+    background-image: url(../../dist/images/golden-dust-bg\ 2.avif);
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 1.5rem;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+    padding-top: 100px;
 
-        &__list {
-            max-width: 1140px;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 30px;
-            padding: 0;
-            margin: 0 auto;
-            list-style: none;
-        
+
+    &__list {
+
+        max-width: 1140px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+
         &__item {
-
             a {
             display: flex;
             flex-direction: column;
@@ -37,7 +33,7 @@
             }
             
             img {
-            width: 100%;
+            width: 320px;
             max-width: 100%;
             display: block;
             margin: 0 0;
@@ -67,8 +63,8 @@
                 font-size: .875rem;
                 font-style: normal;
             }
-
         }
+
     }
 
     &__title {
