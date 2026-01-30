@@ -2,6 +2,7 @@
 @use 'shows';
 @use 'beasts';
 @use 'magic';
+@use 'footer';
 
 * {
     margin: 0;
@@ -35,9 +36,9 @@ body {
 
 .link--btn {
     font-family: 'CochinRoman';
-    background-color: #674618 !important;
-    outline: 5px solid #674618 !important;
-    outline-offset: 0px !important;
+    background-color: #674618;
+    outline: 5px solid #674618;
+    outline-offset: 0px;
     color: #000;
 
 }
@@ -88,6 +89,6 @@ p {
     max-width: 400px;
     font-weight: 200;
     line-height: 26px;
-    color: #FFEED8 !important;
+    color: #FFEED8;
     margin-top: 0;
 }

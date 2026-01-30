@@ -1,0 +1,95 @@
+.footer {
+    &__container {
+        max-width: 1140px;
+        width: 100%;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    &__logo {
+        
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 2rem;
+        padding-bottom: 0px;
+        position: relative;
+
+        img {
+            width: 10px;
+            height: auto;
+            vertical-align: middle;
+            border-style: none;
+        }
+    }
+
+    &__logo::before {
+        margin: 0 20px 0 0;
+        border-top: 1px solid #674618;
+        content: '';
+        flex: 1 0 20px;
+    }
+
+    &__logo::after {
+        margin: 0 0 0 20px;
+        border-top: 1px solid #674618;
+        content: '';
+        flex: 1 0 20px;
+    }
+    
+    &__links {
+
+        &__item {
+            display: inline-block;
+            cursor: pointer;
+            text-transform: capitalize;
+            font-weight: 400;
+            border-radius: 8px;
+            padding: 10px 24px;
+            margin-top: 8px;
+            
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+
+    }
+
+    p {
+        margin-top: 8px;
+        font-weight: 400;
+        line-height: 160%;
+        display: inline-block;
+        font-size: 11.7px;
+        margin-bottom: 1rem;
+        flex: 0 0 100%;
+        max-width: 100%;
+        color: #fff;
+    }
+}
+
+.article_footer {
+    background-position: 78% bottom;
+    position: relative;
+    background-size: cover;
+    background-image: url(../../dist/images/castle-bg.avif);
+    display: block;
+}
+
+.article_footer::before {
+    content: '';
+    background: linear-gradient(0deg, rgba(12, 16, 22, 0) 0%, rgba(12, 16, 22) 100%);
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
