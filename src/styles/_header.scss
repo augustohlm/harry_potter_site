@@ -1,0 +1,47 @@
+.header {
+
+    &__container {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        flex-flow: row nowrap;
+        padding: .5rem 1rem;
+    }
+
+    &__logo {
+        margin-inline: 0px 16px;
+        line-height: 1;
+        padding: .25rem 0;
+        display: inline-block;
+
+        img {
+            height: 32px;
+            width: auto;
+            border-style: none;
+        }
+    }
+
+    &__links {
+        justify-content: flex-end;
+        display: flex;
+
+        &__item {
+            padding-inline-start: 2px;
+            margin-inline-start: 24px;
+            padding-left: 12px;
+            list-style: none;
+
+        }
+    }
+
+}
+
+.fixed-top {
+    padding: 8px 16px;
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+}
